@@ -1,0 +1,267 @@
+* {
+	margin:0;
+	padding:0;
+	list-style: none;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+.main {
+	height: 109vh;
+	width: 100%;
+	background-image: url("bl.jpg");
+	background-position: center;
+	background-size:cover;
+	font-family: sans-serif;
+}
+
+.navbar {
+	width:1200px;
+	height:75px;
+	margin: auto;
+}
+
+.icon {
+	width:200px;
+	height:70px;
+	float:left;
+}
+
+.logo {
+	color: skyblue;
+	font-size: 35px;
+	padding-top: 10px;
+	padding-left: 20px;
+	float: left;
+}
+
+.menu {
+	width:400px;
+	height:70px;
+	float:left;
+}
+
+.menu ul {
+	float:left;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+}
+
+.menu ul li {
+	list-style: none;
+	margin-left: 62px;
+	margin-top: 27px;
+	font-size: 14px;
+}
+
+.menu ul li a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	transition:.4s ease;
+}
+
+.menu ul li a:hover {
+	color: skyblue;
+}
+
+.search {
+	width: 330px;
+	float:left;
+	margin-left: 270px;
+}
+
+.srch {
+	width: 200px;
+	height: 40px;
+	background-color:transparent;
+	border:1px solid skyblue;
+	margin-top: 13px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-right: none;
+	padding:10px;
+	color: white;
+	font-size:16px;
+	float:left;
+}
+
+.btn {
+	margin-top:13px ;
+	width: 100px;
+	height: 40px;
+	color:white;
+	background-color: skyblue;
+	border-left:none;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border: 2px solid skyblue;
+	font-size: 15px;
+}
+
+.btn:focus {
+	outline:none;
+}
+
+.srch:focus {
+	outline: none;
+}
+
+.content {
+	width: 1200px;
+	height: auto;
+	margin: auto;
+	color: white;
+	position: relative;
+}
+
+.content .par {
+	line-height:40px;
+	color:white;
+	font-size: 18px;
+	letter-spacing: 1.2px;
+	padding-top: 15px;
+	padding-bottom: 25px;
+	padding-left: 20px;
+}
+
+.content h1 {
+	font-size: 50px;
+	letter-spacing:2px;
+	padding-left:20px;
+	font-weight: bold;
+	margin-top: 9%;
+}
+
+.content h1 span {
+	color: skyblue;
+	font-size: 60px;
+}
+
+.content .cn {
+	padding:15px;
+	margin-left: 20px;
+	border-radius: 10px;
+	border: none;
+	font-size: 18px;
+	width: 200px;
+	background-color: skyblue;
+	margin-bottom: 10px;
+	cursor: pointer;
+	transition: .3s ease;
+}
+
+.content .cn a {
+	text-decoration: none;
+	color:black;
+	transition: .4s ease;
+}
+
+.content .cn:hover {
+	background-color: white;
+}
+
+.form {
+	position: absolute;
+	top: -20px;
+	left:870px;
+	background:linear-gradient(to top, rgba(0, 0, 0, 0.8)50%,rgba(0, 0, 0, 0.8)50%);
+	width:320px;
+	height: 420px;
+	border-radius: 10px;
+	padding:25px;
+}
+
+::placeholder {
+	color: white;
+}
+
+
+.form h2 {
+	width:220px;
+	text-align: center;
+	padding:8px;
+	margin: 2px;
+	background-color: white;
+	color: skyblue;
+	border-radius: 10px;
+	font-size: 22px;
+}
+
+.form input {
+	background-color: transparent;
+	border-bottom:1px solid skyblue;
+	border-top: none;
+	border-left:none;
+	border-right: none;
+	font-size: 17px;
+	width:240px;
+	height:35px;
+	letter-spacing: 1px;
+	margin-top: 20px;
+	color:white;
+}
+
+.form input:focus {
+	outline:none;
+}
+
+.btnn {
+	margin-top: 20px;
+	border-radius:5px;
+	width:240px;
+	height: 30px;
+	font-size: 17px;
+	margin-bottom:10px;
+	border:none;
+	background-color: skyblue;
+	cursor: pointer;
+	transition: .4s ease;
+	color:white;
+}
+
+.btnn a{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+
+.btnn:hover {
+	background-color: white;
+	color:skyblue;
+}
+.form .link {
+	padding: 10px;
+	font-size: 20px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.form .link a{
+	text-decoration: none;
+	color: skyblue;
+}
+
+.form .liw {
+	padding-top: 10px;
+	padding-bottom: 20px;
+	text-align:center;
+}
+
+.icons a{
+	text-decoration: none;
+	color: white;
+}
+
+.icons ion-icon {
+	color: white;
+	font-size: 30px;
+	padding-left:15px;
+	padding-top: 5px;
+	transition: .4s ease;
+}
+
+.icons ion-icon:hover {
+	color: skyblue;
+}
